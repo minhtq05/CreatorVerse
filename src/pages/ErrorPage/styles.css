@@ -1,0 +1,20 @@
+.error-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  font-family: "Inter";
+  font-size: 30px;
+  color: white;
+  gap: 20px;
+}
+
+.error-page p {
+  font-size: 24px;
+}

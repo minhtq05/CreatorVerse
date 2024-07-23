@@ -1,0 +1,87 @@
+.creator {
+  display: flex;
+  max-width: 1240px;
+  width: 100%;
+}
+
+.creator .content-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 3px;
+  background: linear-gradient(to bottom right, #c8acd6, #6f5af1);
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.creator .content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: linear-gradient(to bottom right, #050515, #040113);
+  width: 100%;
+  color: white;
+  gap: 120px;
+  padding: 80px;
+  padding-top: 140px;
+  border-radius: 7px;
+}
+
+.creator .content .creator-image {
+  width: 380px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.creator .content .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  gap: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  padding: 20px 0;
+  letter-spacing: 0.05em;
+}
+
+.creator .content .info div:first-child {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.creator .content .info h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 44px;
+}
+
+.creator .content .info p {
+  font-size: 24px;
+  line-height: 29px;
+  width: 100%;
+}
+
+.creator .content .info button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: #edc9ff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.creator .content .info .edit-button {
+  width: 30px;
+  height: 30px;
+}

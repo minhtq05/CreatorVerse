@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/client.js"],
+  "exclude": ["node_modules"]
+}

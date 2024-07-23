@@ -1,0 +1,20 @@
+a:link {
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.social .social-media {
+  width: 40px;
+  height: 40px;
+}
+
+.social .social-media img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

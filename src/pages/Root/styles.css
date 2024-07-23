@@ -1,0 +1,151 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.root img {
+  width: 100%;
+}
+
+.root .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, rgb(7, 0, 46), rgb(3, 0, 27));
+}
+
+.root .container .bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.root .container .graphic img {
+  position: absolute;
+  z-index: 20;
+  width: 18vw;
+}
+
+.root .container .graphic img:first-of-type {
+  top: 41.76px;
+  left: calc(50% - 172.8px);
+  width: 259.2px;
+}
+
+.root .container .graphic img:nth-of-type(2) {
+  top: 200.448px;
+  left: calc(50% - 619.2px);
+  width: 172.8px;
+}
+
+.root .container .graphic img:nth-of-type(3) {
+  top: 83.52px;
+  left: calc(50% + 417.6px);
+  width: 172.8px;
+}
+
+.root .container .graphic img:nth-of-type(4) {
+  top: 584.64px;
+  left: calc(50% - 576px);
+  width: 172.8px;
+}
+
+.root .container .graphic img:nth-of-type(5) {
+  top: 626.4px;
+  left: calc(50% - 115.2px);
+  width: 172.8px;
+}
+
+.root .container .graphic img:nth-of-type(6) {
+  top: 601.344px;
+  left: calc(50% + 547.2px);
+  width: 172.8px;
+}
+
+.root .text-overlay {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 317.376px;
+  margin-bottom: 208.8px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  background: linear-gradient(90deg, #ffffff 0%, #edc9ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  font-stretch: condensed;
+  rotate: -2deg;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+.root .quote {
+  position: absolute;
+  z-index: 30;
+  color: #ddbea9;
+  font-family: "Bebas Neue";
+  font-size: 36px;
+  top: 480px;
+  left: calc(50% + 50px);
+  rotate: +2deg;
+  text-align: center;
+  text-shadow: 1px 1px 10px white;
+}
+
+.root .back-home {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 20;
+  gap: 5px;
+  transition: all ease-in-out 0.1s;
+}
+
+.root .back-home:hover,
+.root .back-home:active {
+  transform: translateY(-3px);
+}
+
+.root .back-home:hover {
+  cursor: pointer;
+}
+
+.root .back-home img {
+  width: 30px;
+  height: 30px;
+}
+
+.root .back-home p {
+  width: 100px;
+  color: white;
+  font-size: 30px;
+}
+
+footer {
+  position: relative;
+  font-family: "Inter";
+  letter-spacing: 0.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  z-index: 20;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  gap: 10px;
+}
